@@ -7,5 +7,5 @@ GET http://localhost:3000/api/contacts
 ### Get a single contact by ID (replace :id with actual contact ID)
 GET http://localhost:3000/api/contacts/:id
 
-### Test with Render deployment (replace with your actual Render URL)
-### GET https://your-app-name.onrender.com/api/contacts
+### Test with Render deployment 
+### GET https://cse341-project-contacts-z5jb.onrender.com/api/contacts
