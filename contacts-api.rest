@@ -1,11 +1,42 @@
 ### Test the base endpoint
 GET http://localhost:3000/
 
+### Swagger Documentation
+GET http://localhost:3000/api-docs
+
 ### Get all contacts
 GET http://localhost:3000/api/contacts
 
 ### Get a single contact by ID (replace :id with actual contact ID)
 GET http://localhost:3000/api/contacts/:id
 
+### Create a new contact
+POST http://localhost:3000/api/contacts
+Content-Type: application/json
+
+{
+  "firstName": "Alice",
+  "lastName": "Johnson",
+  "email": "alice.johnson@email.com",
+  "favoriteColor": "Pink",
+  "birthday": "1993-07-20"
+}
+
+### Update a contact (replace :id with actual contact ID)
+PUT http://localhost:3000/api/contacts/:id
+Content-Type: application/json
+
+{
+  "firstName": "Alice",
+  "lastName": "Smith",
+  "email": "alice.smith@email.com",
+  "favoriteColor": "Purple",
+  "birthday": "1993-07-20"
+}
+
+### Delete a contact (replace :id with actual contact ID)
+DELETE http://localhost:3000/api/contacts/:id
+
 ### Test with Render deployment 
 ### GET https://cse341-project-contacts-z5jb.onrender.com/api/contacts
+### GET https://cse341-project-contacts-z5jb.onrender.com/api-docs
