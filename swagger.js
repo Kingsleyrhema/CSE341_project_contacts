@@ -6,8 +6,8 @@ const doc = {
     description: 'API for managing contact information',
     version: '1.0.0',
   },
-  host: 'localhost:3000',
-  schemes: ['http'],
+  host: 'cse341-project-contacts-z5jb.onrender.com',
+  schemes: ['https'],
   consumes: ['application/json'],
   produces: ['application/json'],
   definitions: {

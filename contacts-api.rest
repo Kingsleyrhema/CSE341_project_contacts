@@ -38,5 +38,6 @@ Content-Type: application/json
 DELETE http://localhost:3000/api/contacts/:id
 
 ### Test with Render deployment 
-### GET https://cse341-project-contacts-z5jb.onrender.com/api/contacts
-### GET https://cse341-project-contacts-z5jb.onrender.com/api-docs
+GET https://cse341-project-contacts-z5jb.onrender.com/
+GET https://cse341-project-contacts-z5jb.onrender.com/api/contacts
+GET https://cse341-project-contacts-z5jb.onrender.com/api-docs

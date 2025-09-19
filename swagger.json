@@ -5,10 +5,10 @@
     "description": "API for managing contact information",
     "version": "1.0.0"
   },
-  "host": "localhost:3000",
+  "host": "cse341-project-contacts-z5jb.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "https"
   ],
   "consumes": [
     "application/json"
